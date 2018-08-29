@@ -1,0 +1,62 @@
+== SimpleSpectrum Changelog ==
+
+
+-V2.0-
+	NOTE: Because of the various changes in this update, your existing SimpleSpectrums and OutputVolumes might need checking for unintended effects of new properties.
+	
+	- OutputVolume Overhaul:
+		- Multiple output types can now be chosen from: BarPrefab (same as before), ObjectPosition, ObjectRotation and ObjectScaling.
+		  The new 'Object' outputs can move, rotate or scale their gameObject, allowing for VU (needly) meters and bouncy things!
+		- New custom Inspector view
+
+	- Source Types:
+		- Both SimpleSpectrum and OutputVolume have been given their enumerators called SourceType, which control the source of input data.
+		- Both have the values AudioSource, AudioListener (both the same as before) and Custom, which allows you to input your own data using new exposed properties.
+		- SimpleSpectrum also has Microphone and StereoMix in its Source Types.
+		
+	- Microphone Sources:
+		SimpleSpectrum can now automatically start Microphone recordings and hook them up to the Spectrum!
+		The Microphone SourceType uses the computer's default microphone and the StereoMix SourceType uses the computer's Stereo Mix (output) device.
+		Due to some strange issues with this class, the recording is occasionally restarted to keep it fresh.
+		This is done in the RestartMicrophone function, if you ever need to do this yourself (i.e. after default microphone changes).
+	
+	- Shaded Bars:
+	  Three extra bar types that use a Surface shader, meaning bars can now be shaded, cast & recieve shadows!
+	  
+	- UI/Image Bars:
+	  Three extra Bar Prefabs that use the UI.Image class and added support in SimpleSpectrum and OutputVolume.	
+	
+	- Support for textures in the LightweightGradientLerpSprite shader, allowing custom textured Sprite or UI bars.
+	
+	- More presets which utilise the new features.
+	
+	- New Demo scenes showcasing the AudioMixerGroup Mute 'feature', file opening, Microphone input and others.
+	
+	- All customisable properties of SimpleSpectrum and OutputVolume now have tooltips.
+	
+	- Added custom Component icons for SimpleSpectrum and OutputVolume
+
+	- If the bendAngle in SimpleSpectrum is 360 degrees, the script now recenters the bars around the pivot, so scaling works correctly.
+	
+	- Gotten rid of the () from SimpleSpectrum in branding. It was silly.
+	
+	- Various bug fixes & optimisations.
+
+-v1.1-
+	- The Spectrum class has been renamed to SimpleSpectrum.
+
+	- New properties colorAttackDamp and colorDecayDamp have been added to SimpleSpectrum and OutputVolume.
+	  These allow for smoother changes of bar colour.
+
+	- A 'channel' property has been added to OutputVolume and 'channelUsed' to OutputVolume.GetRMS to specify audio channel of output volume.
+
+	- SimpleSpectrum.isEnabled has been made visible in the custom inspector view.
+
+	- More presets have been added and can be found in Assets/SimpleSpectrum/Presets.
+
+	- Various bug fixes & optimisations.
+
+
+-v1.0-
+
+Initial release

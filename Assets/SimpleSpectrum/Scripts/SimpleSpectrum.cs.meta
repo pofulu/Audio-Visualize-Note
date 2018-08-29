@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 37c5288dfa9efd14da62feee804531cd
+timeCreated: 1520188119
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - muteGroup: {fileID: 24300001, guid: 1d9bfcb87d0ba844e9071a1e60825ede, type: 2}
+  - audioSource: {instanceID: 0}
+  - barPrefab: {fileID: 1266396586347798, guid: b2c7e66c593b3c8428e3eb7578024738,
+      type: 2}
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 224cc0b1d10e63940b63fb243cafb49d, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
