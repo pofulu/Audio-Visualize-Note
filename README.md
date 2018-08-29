@@ -14,8 +14,6 @@ AssetStore 上面的免費插件，可以分析 Unity AudioListener、AudioSourc
 
 獨立腳本：https://github.com/pofulu/BandFilter
 
-跟 SimpleSpectrum 一起匯出的 package：\\\192.168.0.112\RUMU_Public\Pofu\SimpleSepctrumEdited.unitypackage
-
 我根據[這篇教學](https://www.youtube.com/watch?v=mHk3ZiKNH48&t=321s)，並以 SimpleSpectrum 為基礎寫的擴充腳本，可以透過 UnityEvent 輸出 SubBass、Midrange 等等音高的數值，並包含了超過閥值會觸發的 UnityEvent。
 
 ![2](README.assets/1535451568227.png)
