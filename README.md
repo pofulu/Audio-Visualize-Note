@@ -28,8 +28,6 @@ AssetStore 上面的免費插件，可以分析 Unity AudioListener、AudioSourc
 
 keijiro版本：https://github.com/keijiro/OscJack
 
-個人用的版本：\\\192.168.0.112\RUMU_Public\Pofu\OSC
-
 
 
 ### keijiro/Lasp
@@ -52,8 +50,6 @@ https://github.com/keijiro/Lasp
 ### LiveGrabber - OSC plugin
 
 https://showsync.info/tools/livegrabber/
-
-\\\192.168.0.112\RUMU_Public\Albeton Live\OSCPlugin
 
 用來接收、傳送 OSC 訊號的外掛，解壓縮後會取得![1535453033993](README.assets/1535453033993.png)等等檔案，可以直接拖進 Ableton Live 的![1535453180745](README.assets/1535453180745.png)，或是![1535456444401](README.assets/1535456444401.png)也可以。
 
